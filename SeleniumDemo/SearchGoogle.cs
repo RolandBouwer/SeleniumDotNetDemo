@@ -190,6 +190,9 @@ namespace SeleniumDemo
             {
                 TakeScreenshot($"{testContextInstance.TestName}.png");
             }
+			
+			Environment.SetEnvironmentVariable("VARIABLE_NAME", "change 545245 Today");
+            Environment.SetEnvironmentVariable("sauseTest2", "change in code 01012");
 
             driver.Quit();
         }
